@@ -22,10 +22,13 @@ You can extend your project further by:
 
 ### Image Attributions
 *Tell us where you found the image you are using! Make sure it is in the public domain, has a license that allows you to use it, or is one you took on your own. Check out [archive.org](https://archive.org/), [Pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/), or [Burst](https://burst.shopify.com/) for free, uncopyrighted images.*
-- Ada Lovelace Image on index.html: Alfred Edward Chalon / Public domain 
-- Ada Lovelace Program Image on portfolio.html: Ada Lovelace / Public domain
-- The Analytical Engine portfolio.html: Science Museum London / Science and Society Picture Library / CC BY-SA [https://creativecommons.org/licenses/by-sa/2.0]()
-- Portfolio Header Background Code Image from Pixabay [Image Link](https://pixabay.com/vectors/background-the-background-1086840/)
+
+Sun image on index.html from Vecteezy
+Book image on index.html for free  from Template.net
+Girl running image on index.html from Public Domain
+Tv image from Public Domain
+Coming soon image on portfolio.html from Unsplash
+
 
 ---
 
