@@ -1,14 +1,25 @@
 /* STYLE SECTIONING TAGS */
 body {
- background-color: lightcyan; 
+ background-color: #d9e5ed; 
+  text-align:center;
 }
 
 /* STYLE TEXT */
-
-h1 {
-  color: navy;
+h1,h3,p{
+  font-family: monospace;
+  color:black;
 }
-
+p{
+  font-size:15px;
+}
+h3{
+  font-size:20px;
+}
 /* STYLE IMAGES */
+img{
+  max-width:50%;
+  border-radius:50%;
+  border: 5 px solid black;
+}
 
 /* STYLE NAV BAR */
