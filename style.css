@@ -58,7 +58,7 @@ img{
   /*Embossed effect */
   /*first + # means to the right, second means down, third means how blurry you want it (higher is more blurry), 4th is the color of the shadow*/
   text-shadow: 1px 1px 0 black, -1px -1px 0 white; 
-
+  
 }
 
 .portImages{
@@ -92,13 +92,4 @@ li a{
 
 li a:hover{
   background-color:#dde5f8;
-}
-
-/* STYLE HOBBIES SECTION */
-.hobbies-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  margin-top: 20px;
-  text-align: center;
 }
