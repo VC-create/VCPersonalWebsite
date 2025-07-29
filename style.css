@@ -15,6 +15,13 @@ body {
   text-align:center;
 }
 
+main{
+  margin-top:30px;
+  margin-right:20%;
+  margin-left:20%;
+  /*makes it so it always takes up the middle 60% of the screen*/
+}
+
 /* STYLE TEXT */
 h1,h3,p{
   font-family: monospace;
@@ -22,10 +29,13 @@ h1,h3,p{
 }
 p{
   font-size:15px;
+  margin-top:10px;
   margin-bottom:70px;
 }
 h3{
   font-size:20px;
+  padding:10px;
+  text-shadow: 2px 2px 4px gray;
 }
 
 /* STYLE IMAGES */
@@ -36,3 +46,30 @@ img{
 }
 
 /* STYLE NAV BAR */
+nav{
+  padding-top:15px;
+}
+
+/*rules written later override the ones before*/
+/*more specific rules, classes and ids, override general rules for elements*/
+
+#name{
+  color:#737ab5;
+  letter-spacing:7px;
+  padding:10px;
+   /*Glow effect 
+  text-shadow: 0 0 10px #00ff00; */
+
+  /*Embossed effect */
+  /*first + # means to the right, second means down, third means how blurry you want it (higher is more blurry), 4th is the color of the shadow*/
+  text-shadow: 1px 1px 0 black, -1px -1px 0 white; 
+  
+}
+
+.portImages{
+ /*same as embossed effect but 4th number is the spread of the shadow*/
+  box-shadow: 2px 2px 5px 6px gray;
+  border-width:2px;
+  border-radius:0%;
+  margin-top:20px;
+}
