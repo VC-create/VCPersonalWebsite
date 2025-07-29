@@ -6,7 +6,8 @@
 /* STYLE SECTIONING TAGS */
 header{
   padding-top:20px;
-  background-color:#b0c8d8;
+  background-color: #b0c8d8;
+  padding-bottom:10px;
 }
 
 body {
@@ -44,16 +45,11 @@ img{
   border: 5px solid lightgray;
 }
 
-/* STYLE NAV BAR */
-nav{
-  padding-top:0px;
-}
-
 /*rules written later override the ones before*/
 /*more specific rules, classes and ids, override general rules for elements*/
 
 #name{
-  color:#737ab5;
+  color:#7077b2;
   letter-spacing:7px;
   padding:10px;
    /*Glow effect 
@@ -73,10 +69,27 @@ nav{
   margin-top:20px;
 }
 
+/* STYLE NAV BAR */
 ul{
   list-style-type:none;
-  background-color:#b0c8d8;
+  background-color:#afc2ef;
   overflow:hidden;
-  margin:0;
-  padding:0;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+/*puts the links next to each other*/
+li{
+  display:inline;
+}
+/*styles the links in the navbar*/
+li a{
+  color:gray;
+  font-size:20px;
+  padding:10px;
+  text-decoration:none;
+  text-shadow: 1px 1px 0 black;
+}
+
+li a:hover{
+  background-color:#dde5f8;
 }
