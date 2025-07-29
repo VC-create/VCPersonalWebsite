@@ -1,4 +1,15 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
 /* STYLE SECTIONING TAGS */
+header{
+  padding-top:20px;
+  background-color:#b0c8d8
+  padding-bottom:10px;
+}
+
 body {
  background-color: #d9e5ed; 
   text-align:center;
@@ -11,10 +22,12 @@ h1,h3,p{
 }
 p{
   font-size:15px;
+  margin-bottom:70px;
 }
 h3{
   font-size:20px;
 }
+
 /* STYLE IMAGES */
 img{
   max-width:50%;
